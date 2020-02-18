@@ -13,7 +13,11 @@ class User < ApplicationRecord
   has_secure_password
 
   def to_param
-    [id, username.parameterize].join('-')
+    username
+  end
+
+  def self.find(input)
+    input.to_i.zero? ? find_by_username(input) : super
   end
 
   def self.create_with_omniauth(auth)
