@@ -12,7 +12,7 @@ Today was the second day of the project and time to start Rails. We started the 
 
 
 # Wednesday 12th February 2020 (Jack)
-
+Today was a good day. The initial bootstrap styling was set up and it turned out really well. We also added in functionality so that the user can make a multi line post
 
 # Thursday 13th February 2020 (Katie)
 
@@ -47,7 +47,7 @@ Once comments are deployed we will integrate this change to the master.
 The day started with half of us implementing the chat feature and the others working on an update username. It all went smoothly and we had both these features working by lunchtime. After a quick game of team Table Tennis we started the afternoon, switching up the pairs and starting on adding friends and adding likes to comments. Both groups hit some bumps but were able to overcome these through a bit of mobbing and googling and the adding friends feature was added. After a few attempts at adding the likes to comments we decided to call it a day and have a look at it with fresh eyes in the morning.
 
 # Thursday 20th February 2020 (Jack)
-
+Today went well. Chat functionality and the ability for a user to change their username was added.
 
 # Friday 21st February 2020 (David)
 
