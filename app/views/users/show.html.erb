@@ -12,7 +12,7 @@
   </div>
 <% end %>
 
-<%= button_to 'Add friend', friendships_path(:friend_id => @user), :method => :post, class: 'btn btn-primary btn-sm' %>
+<%= button_to 'Add friend', friendships_path(:friend_id => @user.id), :method => :post, class: 'btn btn-primary btn-sm' %>
 <br>
 
 
