@@ -8,6 +8,10 @@ class UsersController < ApplicationController
     @user = User.new
   end
 
+  def edit
+    @user = User.find(params[:id])
+  end
+
   def create
     @user = User.new(user_details)
 
@@ -20,9 +24,24 @@ class UsersController < ApplicationController
     end
   end
 
-  def show
+  def update
     @user = User.find(params[:id])
-    @posts = Post.where(location_id: @user.id).order(created_at: :desc)
+    if User.find_by_username(params[:user][:username])
+      flash.now.alert = 'Apologies, this username is already taken'
+      render 'edit'
+    elsif @user.id == session[:user_id]
+      @user.update_attribute(:username, params[:user][:username])
+      redirect_to session[:url]
+    else
+      flash.now.alert = 'Apologies, this is not your account to update!'
+      render 'edit'
+    end
+  end
+
+  def show
+    @user = User.find(params[:id]) || render_404
+    @posts = Post.where(location_id: @user).order(created_at: :desc)
+    session[:url] = request.original_fullpath
   end
 
   def destroy
@@ -30,7 +49,7 @@ class UsersController < ApplicationController
     @user = User.find(@post.user_id)
     if @post.user_id == session[:user_id]
       @post.destroy
-      redirect_to user_path(current_user)
+      redirect_to session[:url]
     else
       delete_alert(@user)
     end

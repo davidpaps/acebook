@@ -22,3 +22,13 @@ def create_post
   fill_in 'post[message]', with: 'test message'
   click_button 'Add post'
 end
+
+def create_comment
+  fill_in 'comment[body]', with: 'test comment'
+  click_button 'Add Comment'
+end
+
+def edit_comment
+  fill_in 'comment[body]', with: 'Test comment 1'
+  click_button 'Update comment'
+end
