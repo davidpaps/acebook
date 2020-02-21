@@ -39,8 +39,8 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = User.find_by_id(params[:id]) || render_404
-    @posts = Post.where(location_id: params[:id]).order(created_at: :desc)
+    @user = User.find(params[:id]) || render_404
+    @posts = Post.where(location_id: @user).order(created_at: :desc)
     session[:url] = request.original_fullpath
   end
 

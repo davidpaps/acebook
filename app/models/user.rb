@@ -17,6 +17,14 @@ class User < ApplicationRecord
 
   has_secure_password
 
+  def to_param
+    username
+  end
+
+  def self.find(input)
+    input.to_i.zero? ? find_by_username(input) : find_by_id(input)
+  end
+
   def self.create_with_omniauth(auth)
     create! do |user|
       user.provider = auth['provider']
