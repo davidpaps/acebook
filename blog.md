@@ -12,7 +12,7 @@ Today was the second day of the project and time to start Rails. We started the 
 
 
 # Wednesday 12th February 2020 (Jack)
-
+Today was a good day. The initial bootstrap styling was set up and it turned out really well. We also added in functionality so that the user can make a multi line post
 
 # Thursday 13th February 2020 (Katie)
 
@@ -46,6 +46,6 @@ Once comments are deployed we will integrate this change to the master.
 
 
 # Thursday 20th February 2020 (Jack)
-
+Today went well. Chat functionality and the ability for a user to change their username was added.
 
 # Friday 21st February 2020 (David)
