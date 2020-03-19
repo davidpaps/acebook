@@ -13,7 +13,7 @@ feature 'user can delete posts' do
     sign_up
     create_post
     create_comment
-    all('a', :text => '🗑')[0].click
+    all('a', text: '🗑')[0].click
     expect(page).not_to have_content('test message')
     expect(page).not_to have_content('test comment')
   end

@@ -11,7 +11,7 @@ feature 'user can like a comment' do
     click_link 'Home'
     click_link 'uvalente'
     create_comment
-    all('a', :text => '❤️')[1].click
+    all('a', text: '❤️')[1].click
     expect(page).to have_content('1 Like')
     expect(page).to have_selector(:link, '💔')
   end
@@ -20,7 +20,7 @@ feature 'user can like a comment' do
     click_link 'Home'
     create_post
     create_comment
-    all('a', :text => '❤️')[1].click
+    all('a', text: '❤️')[1].click
     expect(page).to have_content('1 Like')
     expect(page).to have_selector(:link, '💔')
   end

@@ -6,7 +6,7 @@ feature 'user can update comments' do
     click_link 'Home'
     create_post
     create_comment
-    all('a', :text => '♻️')[1].click
+    all('a', text: '♻️')[1].click
     edit_comment
     expect(page).not_to have_content('test comment')
     expect(page).to have_content('Test comment 1')
@@ -17,7 +17,7 @@ feature 'user can update comments' do
     sign_up
     create_post
     create_comment
-    all('a', :text => '♻️')[1].click
+    all('a', text: '♻️')[1].click
     edit_comment
     expect(page).not_to have_content('test comment')
     expect(page).to have_content('Test comment 1')
@@ -32,10 +32,9 @@ feature 'user can update comments' do
     click_link 'Sign Out'
     sign_up_two
     click_link 'Home'
-    all('a', :text => '♻️')[1].click
+    all('a', text: '♻️')[1].click
     edit_comment
     expect(page).to have_content('Apologies, this is not your comment to update!')
     expect(page).not_to have_content('Test comment 1')
   end
 end
-

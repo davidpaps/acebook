@@ -6,7 +6,7 @@ feature 'user can delete comments' do
     click_link 'Home'
     create_post
     create_comment
-    all('a', :text => '🗑')[1].click
+    all('a', text: '🗑')[1].click
     expect(page).not_to have_content('test comment')
     expect(page).to have_content('Your comment has been successfully deleted.')
   end
@@ -15,7 +15,7 @@ feature 'user can delete comments' do
     sign_up
     create_post
     create_comment
-    all('a', :text => '🗑')[1].click
+    all('a', text: '🗑')[1].click
     expect(page).not_to have_content('test comment')
     expect(page).to have_content('Your comment has been successfully deleted.')
   end
@@ -28,7 +28,7 @@ feature 'user can delete comments' do
     click_link 'Sign Out'
     sign_up_two
     click_link 'Home'
-    all('a', :text => '🗑')[1].click
+    all('a', text: '🗑')[1].click
     expect(page).to have_content('Apologies, this is not your comment to delete!')
   end
 end

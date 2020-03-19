@@ -1,6 +1,6 @@
 # frozen_string_literal: true
-# require 'rails_helper'
 
-# RSpec.describe CommentlikesController, type: :controller do
+require 'rails_helper'
 
-# end
+RSpec.describe CommentlikesController, type: :controller do
+end
