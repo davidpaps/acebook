@@ -24,3 +24,11 @@
 coverage
 .DS_Store
 .env
+
+.rspec
+.rubocop_todo.yml
+.rubocop.yml
+.ruby-version
+CONTRIBUTING.md
+Gemfile.lock
+package.json
