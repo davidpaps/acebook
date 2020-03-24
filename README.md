@@ -1,8 +1,8 @@
 # AceBook
 
-This was the second of the group projects at Makers. This time we had 2 weeks, and the brief was to complete a clone of Facebook. This was our first time using the Ruby on Rails framework, bootstrap design tools, as well as the Travis Continous Intergration tools and Rubocop linter.
+This was the second of the group projects at Makers. This time we had 2 weeks, and the brief was to complete a clone of Facebook. This was our first time using the Ruby on Rails framework, bootstrap design tools, as well as the Travis continuous integration tools and Rubocop linter.
 
-It was a very enjoyable time working with the team. We worked closely, used AGILE practises and had constant feedback over the 2 week project, using stand-ups every morning, retrospectives every evening. The original repo can be found [*here*](https://github.com/asiaellis5/acebook-U-JAKD) - huge shout out to the team members Asia, Jack, Katie and Umberto. I enjoyed the project and learnt so much in such a short space of time. I gained valuable continous intergration and Rails skills gained over the course of this project, as well as an insight into the bootstrap/css world. 
+It was a very enjoyable time working with the team. We worked closely, used AGILE practises and had constant feedback over the 2 week project, using stand-ups every morning, retrospectives every evening. The original repo can be found [*here*](https://github.com/asiaellis5/acebook-U-JAKD) - huge shout out to the team members Asia, Jack, Katie and Umberto. I enjoyed the project and learnt so much in such a short space of time. I gained valuable continuous integration and Rails skills gained over the course of this project, as well as an insight into the bootstrap/css world. 
 
 We kept a running blog over the two week project that can be viewed [*here*](blog.md).
 
@@ -14,7 +14,7 @@ This project was aimed to simulate real life product delivery in the workplace. 
 
 We also copied these user stories onto our group [*Trello Board*](https://trello.com/b/M4b8WWOm/u-jakd), making sure to update the status of each user story as and when they were actioned - then moving them into the relevant column.
 
-You can find the endineering project outline [*here*](https://github.com/makersacademy/course/tree/master/engineering_projects/rails).
+You can find the engineering project outline [*here*](https://github.com/makersacademy/course/tree/master/engineering_projects/rails).
 
 This project is designed to act as a social media site where users can:
 
