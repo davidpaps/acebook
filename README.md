@@ -2,7 +2,7 @@
 
 This was the second of the group projects at Makers. This time we had 2 weeks, and the brief was to complete a clone of Facebook. This was our first time using the Ruby on Rails framework, bootstrap design tools, as well as the Travis Continous Intergration tools and Rubocop linter.
 
-It was a very enjoyable time working with the team. We worked closely, used AGILE practises and had constant feedback over the 2 week project, using stand-ups every morning, retrospectives every evening. The original repo [*here*](https://github.com/asiaellis5/acebook-U-JAKD). Huge shout out to them members Asia, Jack, Katie and Umberto. I enjoyed the project and learnt so much in such a short space of time, with valuable continous intergration and Rails skills gained over the course of this project, as well as an insight into the bootstrap/css world. 
+It was a very enjoyable time working with the team. We worked closely, used AGILE practises and had constant feedback over the 2 week project, using stand-ups every morning, retrospectives every evening. The original repo can be found [*here*](https://github.com/asiaellis5/acebook-U-JAKD) - huge shout out to the team members Asia, Jack, Katie and Umberto. I enjoyed the project and learnt so much in such a short space of time. I gained valuable continous intergration and Rails skills gained over the course of this project, as well as an insight into the bootstrap/css world. 
 
 We kept a running blog over the two week project that can be viewed [*here*](blog.md).
 
