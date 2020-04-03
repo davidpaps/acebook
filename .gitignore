@@ -32,3 +32,9 @@ coverage
 CONTRIBUTING.md
 Gemfile.lock
 package.json
+.travis.yml
+LICENSE
+vendor
+tmp
+lib
+log
